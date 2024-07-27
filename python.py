@@ -15,7 +15,11 @@ data=[("ABC","Q1",2000),
       ("KLM","Q1",2000),
       ("KLM","Q2",3000),
       ("KLM","Q3",1000),
-      ("KLM","Q4",5000)
+      ("KLM","Q4",5000),
+      ("BBC", "Q1", 4000),
+      ("BBC", "Q2", 7000),
+      ("BBC", "Q3", 2000),
+      ("BBC", "Q4", 9000)
       ]
 column=["Company","Quarter","Revenue"]
 df=spark.createDataFrame(data=data,schema=column)
